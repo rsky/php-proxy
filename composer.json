@@ -1,0 +1,20 @@
+{
+    "name": "rsky/php-proxy",
+    "type": "project",
+    "require": {
+        "symfony/http-client": "^6.0",
+        "symfony/http-foundation": "^6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rsky\\PhpProxy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ryusuke Sekiyama",
+            "email": "rsky0711@gmail.com"
+        }
+    ]
+}
